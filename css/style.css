@@ -857,6 +857,7 @@ img {
 .footer-container {
 	display: flex;
 	align-items: baseline;
+	justify-content: space-between;
 }
 
 .footer-logo {
@@ -891,14 +892,6 @@ img {
 	transition-property: color;
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-left {
-	margin-right: 70px;
-}
-
-.footer-rihgt {
-	margin-right: 93px;
 }
 
 .adress-area:hover,
@@ -963,16 +956,18 @@ img {
 	width: 570px;
 }
 
+.form-label {
+	display: flex;
+	width: 358px;
+}
+
 .footer-form {
 	display: flex;
-	width: 100%;
-	justify-content: space-between;
 }
 
 .form-input {
-	padding: 16px;
-	display: block;
-	width: 358px;
+	padding-left: 16px;
+	width: 100%;
 	min-height: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	box-sizing: border-box;
@@ -991,8 +986,9 @@ img {
 }
 
 .footer-submit {
+	margin-left: 12px;
+	padding-left: 29px;
 	cursor: pointer;
-	padding: 13px 8px 13px 28px;
 	width: 200px;
 	min-height: 50px;
 	background: #2196f3;
@@ -1002,7 +998,7 @@ img {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 0.53;
+	line-height: 1.87;
 	/* identical to box height, or 187% */
 	display: flex;
 	align-items: center;
