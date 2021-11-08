@@ -277,6 +277,9 @@ img {
 	height: 15px;
 	margin-right: 9px;
 	background-image: url(../images/rec\ 1.svg);
+	transition-property: beckground-image;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-input:checked + .check-box {
